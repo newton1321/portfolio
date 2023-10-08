@@ -52,7 +52,6 @@ body{
     top: 0px;
     left: 0px;
     z-index: -1;
-    
 }
 
 
@@ -71,4 +70,59 @@ body{
 @keyframes opactiy_changer{
     from{opacity: 0;}
     to{opacity: 1;}
+}
+
+.information{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    font-family: "Arial";
+    font-weight: bold;
+    top: 10px;
+}
+
+#home{
+    left: 50px;
+    border-bottom: 10px solid;
+    border-color: purple;
+}
+
+#about_me{
+    left: 170px;
+}
+
+#portfolio{
+    left: 530px;
+}
+
+#experience{
+    left: 340px;
+}
+
+#above_banner{
+    position: absolute;
+    background: #34393f;
+    width: 100%;
+    height: 10%;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    box-shadow: 5px 15px #212427;
+}
+
+#newton{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 25px;
+    right: 50px;
+}
+
+#myname{
+    position: absolute;
+    color: white;
+    font-family: "Arial";
+    top: 17px;
+    right: 130px;
 }
