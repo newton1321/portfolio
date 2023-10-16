@@ -9,9 +9,17 @@ window.addEventListener("scroll", (event) => {
         home.style.borderStyle = "solid";
         remove_border(1);
     }
-    else if (scroll > 700){
+    else if (scroll > 700 && scroll < 1560){
         about_me.style.borderStyle = "solid";
         remove_border(2);
+    }
+    else if (scroll > 1560 && scroll < 2400){
+        experience.style.borderStyle = "solid";
+        remove_border(3);
+    }
+    else if(scroll > 2400){
+        portfolio.style.borderStyle = "solid";
+        remove_border(4);
     }
 });
 
